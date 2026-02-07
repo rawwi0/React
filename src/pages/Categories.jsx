@@ -27,7 +27,7 @@ const Categories = () => {
   return (
     <div className="p-6  min-h-screen ">
       <h1 className="mb-4 text-2xl font-bold text-center">
-        Welcome to Categories
+        Welcome to NOTES
       </h1>
       <hr className="mb-6" />
       <h2 className="text-center text-xl font-semibold mb-10">NOTES</h2>

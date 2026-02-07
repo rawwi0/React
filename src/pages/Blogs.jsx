@@ -32,7 +32,6 @@ const Blogs = () => {
               key={idx}
               className="d-flex align-items-center gap-3 mt-4 px-4 py-3 bg-success border border-dark rounded"
             >
-            
               <img src={elem.download_url} className="api-img" alt="" />
               <h1 className="m-0 ms-auto fw-bold text-dark">{elem.author}</h1>
             </div> 

@@ -1,15 +1,16 @@
 import React from 'react'
+import PrimaryButton from "../PrimaryButton";
 const Card =  ({name,age,city,profilePhoto,profession}) => {
   return (
-    <div className=" card-box">
+    <div className=" card-box ">
         <img
+        className="card-img "
         src={profilePhoto}
-        className="card-img"
       /> 
       <h3>{name} </h3>
       <h4 className="text-primary">{profession}</h4>
       <h5>{age} , {city}</h5> 
-      <button className="">Add friend</button>
+      <PrimaryButton >Add friend</PrimaryButton>
     </div>
   )
 }
